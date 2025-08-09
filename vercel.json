@@ -7,7 +7,11 @@
     }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
   ],
-  "installCommand": "npm install"
+  "installCommand": "npm install",
+  "outputDirectory": "build"
 }
