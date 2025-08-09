@@ -7,10 +7,8 @@
     }
   ],
   "routes": [
-    { "src": "/static/(.*)", "dest": "/static/$1" },
+    { "src": "/(.*\\.(?:json|ico|png|jpg|jpeg|svg))", "dest": "/$1" },
     { "src": "/(.*)", "dest": "/index.html" }
   ],
-  "installCommand": "npm install",
-  "outputDirectory": "build"
+  "installCommand": "npm install"
 }
-
